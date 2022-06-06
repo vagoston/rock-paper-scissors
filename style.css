@@ -1,0 +1,36 @@
+* {
+    background-color: #d5d7d8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    gap: 32px;
+}
+.container button {
+    padding: 16px;
+    width: 250px;
+    background-color: #e5e7e8;
+    color:#3f3d30;
+    border: none;
+    font-size: 48px;
+    border-radius: 8px;
+}
+
+.feedback {
+    color:#3f3d30;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+    gap: 32px;
+}
+.feedback .result {
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.feedback .stats {
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+}
